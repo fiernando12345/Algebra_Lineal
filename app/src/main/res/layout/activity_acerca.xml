@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acerca">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fernando Alberto Lerma Sarabia"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="3mm"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instituto Tecnologico de Los Mochis"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="3mm"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingeniería Informatica"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="3mm"/>
+
+        <ImageView
+            android:layout_marginTop="8mm"
+            android:layout_width="match_parent"
+            android:layout_height="40mm"
+            android:src="@drawable/logo_itlm"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

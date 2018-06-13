@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tec.fernandoalberto.algebralineal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/algebralineal"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Acerca"
+            android:label="Acerca de mi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Operaciones_Basicas_Numeros_Complejos"
+            android:label="Operaciones Basicas con Numeros Complejos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Potencias_i"
+            android:label="Potencias de i"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Modulo_Numero_Complejo"
+            android:label="Modulo de un Numero Complejo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Plano_Argand"
+            android:label="Plano de Argand"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ConversionesRPE"
+            android:label="Conversiones (Rectangular - Polar - Exponencial)"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Potencias_Raiz_NComplejos"
+            android:label="Potencias y Raíz de Numeros Complejos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Operaciones_Forma_Polar"
+            android:label="Operaciones en Forma Polar"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Unidad_2.Operaciones_con_matrices"
+            android:label="Operaciones con Matrices"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Unidad_2.Transpuesta_Matriz"
+            android:label="Transpuesta de una Matriz"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

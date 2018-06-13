@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Algebra Lineal</string>
+    <string name="tab_text_1">Numeros Complejos</string>
+    <string name="tab_text_2">Matrices y Determinantes</string>
+    <string name="tab_text_3">Sistemas de Ecuaciones Lineales</string>
+    <string name="tab_text_4">Espacio Vectorial</string>
+    <string name="action_settings">Acerca de mi</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="encabezado">Encabezado</string>
+</resources>
